@@ -1,0 +1,12 @@
+.search-block__form{
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: $text-icons-color;
+    //@include box_shadow(3px, 0, 17px, $box-shadow-color);
+    color: $primary-color;
+    box-sizing: border-box;
+}

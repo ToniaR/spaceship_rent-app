@@ -1,0 +1,13 @@
+input {
+    height: 50px;
+    background-color: #c5cae9;
+    border: none;
+    padding: 0 5%;
+    font-size: 1.5em;
+    color: $dark-primary-color;
+    font-weight: 200;
+}
+
+.search-block__field input {
+    width: 80%;
+}

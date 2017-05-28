@@ -1,0 +1,113 @@
+.list-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+}
+
+/*card in list of spaceships*/
+.card {
+    width: 20%;
+    min-width: 300px;
+    min-height: 300px;
+    height: 39em;
+    padding: 2%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    background-color: #ffffff;
+    margin: 1em; 
+    position: relative;
+    cursor: pointer;
+    word-break: break-word;
+}
+
+
+.card:hover:not(.card--wide) {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); 
+    button {
+        background-color: $dark-primary-color;
+        color: $text-icons-color;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+}
+
+.star-rating {
+    width: 70%;
+    display: block;
+    float: right;
+}
+
+.card--wide {
+    width: 80%;
+    margin: 5% auto;
+}
+
+.search-block__wrapper {
+    max-width: 80%;
+    width: 1466px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+    color: $text-icons-color;
+}
+ 
+
+.search-block__field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+    margin-right: 1em;
+}
+
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: $text-icons-color;
+}
+
+
+.spaceships-list__item-prop {
+    width: 90%;
+}
+
+
+
+/*single spaceship wrapper*/
+
+.star-rating__wrap{
+	display: block;
+    width: 100%;
+	font-size: 1rem;
+}
+.star-rating__wrap:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.properties-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    float: right;
+    width: 36%;
+    margin: 4em 0;
+}
+
+
+.gallery-wrapper {
+    width: 20%;
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+
+

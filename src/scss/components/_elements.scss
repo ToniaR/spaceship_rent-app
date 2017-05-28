@@ -1,0 +1,142 @@
+
+img {
+    min-width: 200px;
+    width: 30%;
+    height: auto;
+}
+
+.mars {
+    float: right;
+    display: block;
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    width: 200px;
+    height: 200px;
+}
+
+.ufo {
+    float: right;
+    z-index: 1;
+    position: absolute;
+    top: 2%;
+    right: 10%;
+    transform: rotate(-20deg);
+    width: 200px;
+    height: 200px;
+}
+
+
+.ship {
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    width: 200px;
+    height: 200px;
+}
+
+.single-prop {
+    display: inline-block;
+    width: 90%;
+    margin: 0 auto;
+        font-size: 1.5em;
+    span {
+        float: left;
+        min-width: 48%;
+        max-width: 30%;
+        color: $dark-primary-color;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    p {
+        color: $primary-text;
+        font-weight: 100;   
+    }
+}
+
+
+img.single-item__avatar {
+    display: block;
+    margin: 2em auto;
+    width: 40%;
+}   
+
+.star-rating{
+	font-size: 0;
+}
+
+
+.name {
+    display: block;
+    float: right;
+    width: 70%;
+    text-align: right;
+    font-size: 2.3em;
+    font-weight: bold;
+    color: $dark-primary-color;
+    margin-bottom: 1em;
+    float: right;
+}
+
+.price {
+    display: block;
+    float: right;
+    width: 30%;
+    font-size: 1.9em;
+    color: $accent-color;
+    text-align: right;
+    font-weight: 100;
+    margin: -3em 0 0    ;
+}
+
+.star-rating__ico{
+    display: none;
+	float: right;
+	padding-left: 2px;
+	cursor: pointer;
+	color: $dark-primary-color;
+}
+.star-rating__ico:last-child{
+	padding-left: 0;
+}
+.star-rating__input{
+	display: none;
+}
+.star-rating__ico:hover:before,
+.star-rating__ico:hover ~ .star-rating__ico:before,
+.star-rating__input:checked ~ .star-rating__ico:before
+{
+    color: $accent-color;
+	content: "\f005";
+}
+
+
+.properties-list__property {
+    display: block;
+    float: right;
+    min-width: 200px;  
+    width: 400px;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.properties-list__property-name {
+    display: inline-block; 
+    color: $dark-primary-color;
+    float: left;
+    width: 30%;
+}
+
+.properties-list__property-value {
+    width: 70%;
+    float: right;
+}
+
+.gallery-wrapper__image {
+    position: absolute;
+    z-index: 2;
+    width: 300px;
+    margin-left: 10em;
+}
+
+
