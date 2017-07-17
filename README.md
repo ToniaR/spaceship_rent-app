@@ -1,4 +1,5 @@
 # spaceship_rent-app(test exercise)
+Used technologies: JavaScript, HTML, CSS with SCSS preprocessor and BEM methodologie,Gulp 
 This is a web-app for spaceship rental company, which contains 3 pages:
 
 1. Initial page with a search mask, that allows user find spaceship for selected date range, pick-up and drop-off locations.
